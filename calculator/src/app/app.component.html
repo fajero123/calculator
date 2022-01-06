@@ -1,0 +1,49 @@
+
+  
+<body>
+  <h1>Simple Basic Calculator</h1>
+
+<div class="container-fluid">
+  
+    <div class="border">
+
+        <div class="answer">
+          <mat-card>{{input}}</mat-card> 
+        </div>
+
+      
+
+        <div class="firstline">
+          <button mat-raised-button class="allClear" type="button" (click)="allClear()">C</button>
+          <button mat-raised-button class="clear" type="button" (click)="clear()">x</button>
+          <button mat-raised-button class="operator1" type="button" (click)="pressOperator('/')">/</button>
+        </div>
+    
+        <div class="secondline">
+          <button mat-raised-button class="button7" type="button" (click)="pressNum('7')">7</button>
+          <button mat-raised-button class="button8" type="button" (click)="pressNum('8')">8</button>
+          <button mat-raised-button class="button9" type="button" (click)="pressNum('9')">9</button>
+          <button mat-raised-button class="times" type="button" (click)="pressOperator('*')">X</button>
+        </div>
+        <div class="thirdline">
+          <button mat-raised-button class="button4" type="button" (click)="pressNum('4')">4</button>
+          <button mat-raised-button class="button5" type="button" (click)="pressNum('5')">5</button>
+          <button mat-raised-button class="button6" type="button" (click)="pressNum('6')">6</button>
+          <button mat-raised-button class="minus" type="button" (click)="pressOperator('-')">-</button>
+        </div>
+        <div class="fourthline">
+          <button mat-raised-button class="button1" type="button" (click)="pressNum('1')">1</button>
+          <button mat-raised-button class="button2" type="button" (click)="pressNum('2')">2</button>
+          <button mat-raised-button class="button3" type="button" (click)="pressNum('3')">3</button>
+          <button mat-raised-button class="plus" type="button" (click)="pressOperator('+')">+</button>
+        </div>
+        <div class="fifthline">
+          <button mat-raised-button class="dot" type="button" (click)="pressNum('.')">.</button>
+          <button mat-raised-button class="zero" type="button" (click)="pressNum('0')">0</button>
+          <button mat-raised-button class="equals" type="button" (click)="getAnswer()">=</button>
+        </div>
+
+    </div>
+
+</div>
+</body>

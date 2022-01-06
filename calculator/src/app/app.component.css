@@ -1,0 +1,124 @@
+h1{
+    margin-left: 42%;
+    margin-top: 50px;
+    position: absolute;
+}
+body{
+    background-image: url(https://image.freepik.com/free-vector/pastel-gradient-blur-background_53876-105435.jpg);
+}
+.border{
+    border-style: solid;
+    width: 300px;
+    margin-left: 40%;
+ 
+    margin-top: 130px;
+    position: absolute;
+    
+
+}
+.container-fluid{
+    text-align: center;
+}
+.answer{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.firstline{
+    margin-bottom: 5px;
+}
+.secondline{
+    margin-bottom: 5px;
+}
+.thirdline{
+    margin-bottom: 5px;
+}
+.fourthline{
+    margin-bottom: 5px;
+}
+.fifthline{
+    margin-bottom: 5px;
+}
+.allClear{
+    margin-right: 5px;
+    width: 85px;
+    height: 60px;
+}
+.clear{
+    margin-right: 5px;
+    width: 85px;
+    height: 60px;
+}
+.operator1{
+    margin-right: 5px;
+    width: 85px;
+    height: 60px;
+}
+.button7{
+    margin-right: 5px;
+    height: 60px;
+}
+.button8{
+    margin-right: 5px;
+    height: 60px;
+}
+.button9{
+    margin-right: 5px;
+    height: 60px;
+}
+.times{
+    margin-right: 5px;
+    height: 60px;
+}
+.button4{
+    margin-right: 5px;
+    height: 60px;
+}
+.button5{
+    margin-right: 5px;
+    height: 60px;
+}
+.button6{
+    margin-right: 5px;
+    height: 60px;
+}
+.minus{
+    margin-right: 5px;
+    height: 60px;
+}
+.button1{
+    margin-right: 5px;
+    height: 60px;
+}
+.button2{
+    margin-right: 5px;
+    height: 60px;
+}
+.button3{
+    margin-right: 5px;
+    height: 60px;
+}
+.plus{
+    margin-right: 5px;
+    height: 60px;
+}
+.dot{
+    margin-right: 5px;
+    width: 85px;
+    margin-left: 5px;
+    height: 60px;
+}
+.zero{
+    margin-right: 5px;
+    width: 85px;
+    height: 60px;
+}
+.equals{
+    margin-right: 5px;
+    width: 85px;
+    height: 60px;
+}
+
+
